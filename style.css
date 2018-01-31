@@ -1,0 +1,90 @@
+html{
+	height: 100%;
+}
+
+html, body {
+	min-height: 100%;
+}
+
+form {
+	text-align: center;
+  	padding-top: 40px;
+}
+
+body {
+	font: Arial, sans-serif;
+	background: #f1f1f1;
+    color: rgba(145,145,145,0.7);
+}
+
+input[type="search"] {
+	-webkit-appearance: textfield;
+    box-sizing: border-box;
+    width: 800px;
+    height: 100px;
+    font: Arial, sans-serif;
+	background: #f1f1f1;
+    color: rgba(145,145,145,0.7);
+}
+
+button {
+	text-decoration: none;
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background: transparent url(img/magnifier.svg);
+    border: none;
+}
+
+.column { 
+	clear: both; width: 80%;
+	margin: auto;
+	padding-top: 20px;
+}
+
+.left-column {
+	float: left; width: 33%; 
+	margin-right:0% 
+}
+
+.left-column .image {
+	border-radius: 50%;
+}
+
+.middle-column {
+	float: left; width: 33%; 
+	margin-right:0% 
+}
+
+.right-column { 
+	float: left; width: 33%; 
+	margin-right:0% 
+}
+
+.list {
+	list-style-type: none;
+}
+
+.text {
+	display: inline-block;
+	width: 65%;
+	vertical-align: middle;
+}
+
+.image {
+	display: inline-block;
+	width: 50px;
+	vertical-align: middle;
+}
+
+li {
+	padding: 5px;
+    margin: auto;
+    width: 260px;
+    height: 65px;
+}
+
+a {
+	padding: auto;
+    margin: auto;
+}
